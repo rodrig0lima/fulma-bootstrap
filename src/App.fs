@@ -10,14 +10,12 @@ open Fable.React.Props
 
 type Model = int
 
-type Msg = Increment | Decrement
+//type Msg = 0
 
 let init () = 0
 
 let update msg (model : Model) =
-  match msg with
-  | Increment -> model + 1
-  | Decrement -> model - 1
+  0
 
 let view model dispatch =
   div []
